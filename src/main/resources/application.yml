@@ -1,0 +1,8 @@
+spring:
+  feign:
+    exchangeapi:
+      name: exchangeapi
+      url: https://7b442df6-099a-4079-9766-bb80c4ed59ec.mock.pstmn.io
+      path:
+        symbols: /exchangerates_data/symbols
+        rate: /exchangerates_data/latest
