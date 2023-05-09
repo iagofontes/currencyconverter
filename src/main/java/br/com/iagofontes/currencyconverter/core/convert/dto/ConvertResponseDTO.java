@@ -14,7 +14,7 @@ public class ConvertResponseDTO {
     @JsonProperty("destination_currency")
     public String destinationCurrency;
 
-    @JsonProperty("amount")
+    @JsonProperty("amount_converted")
     public Double amount;
 
 }
